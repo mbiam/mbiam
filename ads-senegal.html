@@ -397,20 +397,20 @@ Le stock est en cours de vérification
 </div>
 <vue-survey v-if="showSurvey" :show-steps="true" :questions='[
             {
-              title: "Êtes-vous citoyen du Sénégal?",
-              answers: [ { text: "Oui" }, { text: "Non" } ]
+              title: "Are you a citizen of Senegal?",
+              answers: [ { text: "Yes" }, { text: "No" } ]
             },
                                                              {
-              title: "Avez-vous un numéro d'identification sénégalais",
-              answers: [ { text: "Oui" }, { text: "Non" } ]
+              title: "Do you have Senegalese ID number",
+              answers: [ { text: "Yes" }, { text: "No" } ]
             },
             {
-              title: "Choisissez votre sexe ?",
-              answers: [ { text: "Mâle" }, { text: "Femelle" } ]
+              title: "Choose your Gender?",
+              answers: [ { text: "Male" }, { text: "Female" } ]
             },
             {
-              title: "Sélectionnez votre tranche d'âge ?",
-              answers: [ { text: "18 - 20 ans" }, { text: "21 - 25ans" }, { text: "26 - 30 ans" }, { text: "30 ans au-dessus" } ]
+              title: "Select Your Age Range?",
+              answers: [ { text: "18 - 20years" }, { text: "21 - 25years" }, { text: "26 - 30 years" }, { text: "30years Above" } ]
             },
           ]' v-on:finish="onSurveyFinish"></vue-survey>
 </div>
